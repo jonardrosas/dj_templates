@@ -1,0 +1,7 @@
+Django
+wagtail
+mysqlclient
+django-environ
+django-cors-headers
+uwsgi
+djangorestframework
