@@ -23,8 +23,16 @@ class HomePage(Page):
 
     content_panels = Page.content_panels + [
         FieldPanel("header"),
+        FieldPanel("subtitle"),
+        FieldPanel("text"),
+        FieldPanel("cta"),
+        FieldPanel("image"),
     ]
 
     api_fields = [
         APIField("header"),
+        APIField("subtitle"),
+        APIField("text"),
+        APIField("cta"),
+        APIField("image"),
     ]
